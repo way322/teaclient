@@ -81,7 +81,7 @@ const Cart = () => {
       };
 
       const response = await axios.post(
-        'http://localhost:5000/api/orders',
+        'https://teasever.onrender.com/api/orders',
         orderData,
         {
           headers: {
